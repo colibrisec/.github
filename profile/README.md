@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/colibrisec">
-    <img src="assets/colibrisec-logo.png" width="150" alt="ColibriSec logo" />
+    <img src="https://avatars.githubusercontent.com/u/121567324?v=4" width="150" alt="ColibriSec logo" />
   </a>
 </p>
 
