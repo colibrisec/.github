@@ -19,7 +19,7 @@
 <p align="center">
   <a href="https://github.com/colibrisec/ojo"><img src="https://img.shields.io/badge/OJO-Security%20Scanner-FF3D21?style=for-the-badge&amp;logo=go&amp;logoColor=FFD447" alt="OJO security scanner" /></a>
   <a href="https://git.colibrisec.org/ColibriSec/balam"><img src="https://img.shields.io/badge/BALAM-Vulnerability%20Management-FF7A35?style=for-the-badge&amp;logo=shield&amp;logoColor=FFD447" alt="Balam vulnerability management" /></a>
-  <a href="https://github.com/colibrisec/colibri"><img src="https://img.shields.io/badge/COLIBRI-Remediation%20Agent-FFD447?style=for-the-badge&amp;logo=robotframework&amp;logoColor=0B0B10" alt="Colibri remediation agent" /></a>
+  <a href="https://github.com/colibrisec/ojo-action"><img src="https://img.shields.io/badge/OJO--ACTION-CI%20Security%20Scanning-FFD447?style=for-the-badge&amp;logo=githubactions&amp;logoColor=0B0B10" alt="OJO Action" /></a>
 </p>
 
 ---
@@ -42,9 +42,8 @@ ColibriSec builds practical security tooling for teams that want clear findings,
 | --- | --- | --- |
 | [**OJO**](https://github.com/colibrisec/ojo) | Scan dependencies, secrets, misconfigurations, and code | Go · CLI · SBOM · Containers |
 | [**Balam**](https://git.colibrisec.org/ColibriSec/balam) | Manage vulnerabilities from intake through remediation | Go · React · TypeScript · PostgreSQL |
-| [**Colibri**](https://github.com/colibrisec/colibri) | Turn validated security issues into reviewed pull requests | Go · Sandboxed agents · CI/CD |
-| [**ColibriOS**](https://github.com/colibrisec/colibrios) | Build a hardened workstation for authorized security work | Arch Linux · Secure Boot · LUKS · SELinux |
 | [**Secretly**](https://github.com/colibrisec/secretly) | Identify and remove secrets from Slack workflows | Security automation · Helm |
+| [**ojo-action**](https://github.com/colibrisec/ojo-action) | Run OJO security scanning directly in GitHub Actions | GitHub Actions · OJO · CI/CD |
 
 ## Operational principles
 
@@ -68,19 +67,19 @@ ColibriSec builds practical security tooling for teams that want clear findings,
     <td width="50%">
       <h3><a href="https://git.colibrisec.org/ColibriSec/balam">Balam</a></h3>
       <p>Self-hosted vulnerability management with a modern UI and API.</p>
-      <p><a href="https://git.colibrisec.org/ColibriSec/balam">View the Balam project</a></p>
+      <p><a href="https://git.colibrisec.org/ColibriSec/balam/actions/workflows/test.yml"><img src="https://git.colibrisec.org/ColibriSec/balam/actions/workflows/test.yml/badge.svg?branch=main" alt="Balam CI status" /></a> <a href="https://git.colibrisec.org/ColibriSec/balam/tags"><img src="https://img.shields.io/static/v1?label=latest%20tag&amp;message=v0.0.22&amp;color=FFD447" alt="Balam latest tag" /></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h3><a href="https://github.com/colibrisec/colibri">Colibri</a></h3>
-      <p>Automated, sandboxed remediation from validated issue to reviewed pull request.</p>
-      <p><a href="https://github.com/colibrisec/colibri"><img src="https://img.shields.io/github/languages/top/colibrisec/colibri?color=FF3D21" alt="Colibri primary language" /></a></p>
+      <h3><a href="https://github.com/colibrisec/secretly">Secretly</a></h3>
+      <p>Slack automation to identify and remove exposed secrets from workflows.</p>
+      <p><a href="https://github.com/colibrisec/secretly/actions"><img src="https://github.com/colibrisec/secretly/actions/workflows/ci.yml/badge.svg" alt="Secretly CI status" /></a> <a href="https://github.com/colibrisec/secretly"><img src="https://img.shields.io/github/languages/top/colibrisec/secretly?color=FF3D21" alt="Secretly primary language" /></a></p>
     </td>
     <td width="50%">
-      <h3><a href="https://github.com/colibrisec/colibrios">ColibriOS</a></h3>
-      <p>Hardened Linux workstation for authorized security assessment and research.</p>
-      <p><a href="https://github.com/colibrisec/colibrios"><img src="https://img.shields.io/github/stars/colibrisec/colibrios?color=FF7A35&amp;label=stars" alt="ColibriOS stars" /></a> <a href="https://github.com/colibrisec/colibrios"><img src="https://img.shields.io/github/license/colibrisec/colibrios?color=FFD447" alt="ColibriOS license" /></a></p>
+      <h3><a href="https://github.com/colibrisec/ojo-action">ojo-action</a></h3>
+      <p>GitHub Action integration for running OJO security scans in CI.</p>
+      <p><a href="https://github.com/colibrisec/ojo-action/actions"><img src="https://github.com/colibrisec/ojo-action/actions/workflows/test.yml/badge.svg" alt="ojo-action test status" /></a> <a href="https://github.com/colibrisec/ojo-action"><img src="https://img.shields.io/github/languages/top/colibrisec/ojo-action?color=FFD447" alt="ojo-action primary language" /></a></p>
     </td>
   </tr>
 </table>
