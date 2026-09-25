@@ -87,7 +87,7 @@ ColibriSec builds practical security tooling for teams that want clear findings,
 ## Contribution stream
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/colibrisec/.github/output/dist/snake.svg" alt="Animated ColibriSec contribution graph" />
+  <img src="https://raw.githubusercontent.com/colibrisec/.github/output/contribution-stream.svg" alt="Animated ColibriSec organization contribution stream" />
 </p>
 
 <p align="center">

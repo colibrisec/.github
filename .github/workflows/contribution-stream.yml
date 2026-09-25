@@ -1,0 +1,31 @@
+name: Generate organization contribution stream
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Generate animated contribution stream
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_ORG: colibrisec
+          OUTPUT: dist/contribution-stream.svg
+        run: python scripts/generate_contribution_stream.py
+      - name: Publish animation
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
